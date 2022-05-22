@@ -1,0 +1,41 @@
+.container h1{
+    color: rgba(128, 128, 128,0.6);
+}
+
+
+.container .line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(128, 128, 128);
+}
+.bookMark{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.1);
+
+}
+.buttonSubmit:hover{
+	box-shadow: 2px 5px 3px 0px #888;
+}
+
+footer .container{
+    color: rgba(128, 128, 128,0.6);
+    font-weight: bold;
+
+}
+.bookMark1{
+    background-image:linear-gradient(#EEE,#FFF);
+	margin:10px 0;
+	padding:20px;
+}
+.bookMark1 h2, .bookMark1 a{
+    margin-right: 10px;
+    margin: auto;
+}
+.bookMark1 h2{
+    font-weight: bold;
+}
+.bookMark1 a, .btnDelete{
+    z-index: 3;
+}
